@@ -8,33 +8,39 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <ul>
+    <nav id="navbar" class="nav" style="position: fixed">
+        <ul class="nav-list">
             <li><a href="welcome-section">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
 
         </ul>
     </nav>
+    
 <section id="welcome-section">
   <h1>I am Mimic</h1>
   <h2>a web developer</h2>
 </section>
-<section id="projects">
-  <h2>these are some of our projects</h2>
-   <div class="figure">
-    <figure>
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">these are some of our projects</h2>
+   <div class="projects-grid">
+    <a href="#">
       <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
-      <figcaption>
-        <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">tribute page</a>
-      </figcaption>
-    </figure>
+      <p class="project-tile">
+            <span class="code">&lt;</span>
+            Tribute Page
+            <span class="code">/&gt;</span>
+          </p>
   </div>
 </section>
-<section id="contacts">
+
+<section id="contact" class="contact-section">
   <h2>Let's work together....</h2>
   <h3>How do you take cofee</h3>
-  <a href="https://github.com/DezMoon/Microverse_trial">Github</a>
+  
+  <a href="https://github.com/DezMoon/Microverse_trial" target="_blank" id="profile-link">Github</a>
+  
 </section>
 </body>
 </html>
